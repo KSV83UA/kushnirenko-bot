@@ -2,11 +2,11 @@ import asyncio
 import logging
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters.command import Command
-
+from setting.py import TOKEN
 # Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)
 # Объект бота
-bot = Bot(token="12345678:AaBbCcDdEeFfGgHh")
+bot = Bot(token="6116128290:AAGeBKG8vaZ-lKu8Or49CTHs2wcSUur4Exw")
 # Диспетчер
 dp = Dispatcher()
 
